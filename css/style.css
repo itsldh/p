@@ -281,8 +281,8 @@ section .fp-tableCell .mid {
   height: 200%;
   padding: 10%;
   border: 1px solid #fff;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  --webkit-backdrop-filter: blur(10px);
 }
 .about .fp-tableCell .mid .box .a-subs {
   display: flex;
