@@ -282,7 +282,7 @@ section .fp-tableCell .mid {
   padding: 10%;
   border: 1px solid #fff;
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  --webkit-backdrop-filter: blur(10px);
 }
 .about .fp-tableCell .mid .box .a-subs {
   display: flex;
