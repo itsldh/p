@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+@media screen and (max-width : 1440px) {
+    section .fp-tableCell .mid .p-midside {
+        height: 85%;
+        margin: auto;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-sub h1 {
+        font-size: 1.8rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li {
+        font-size: 1.2rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li:hover {
+        font-size: 1.5rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li.on {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width : 1140px) {
+    section .fp-tableCell .left {
+        height: 110%;
+    }
+    section .fp-tableCell .mid {
+        flex-direction: column;
+        margin: auto;
+        height: 80%;
+        align-items: center
+    }      
+    .portfolio .fp-tableCell .mid .p-midmain {
+        width: 100%;
+        height: 65%;
+        margin-right: 0;
+    }
+    .portfolio .fp-tableCell .mid .p-midside {
+        width: 95%;
+        height: 30%;
+        margin: 0;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-sub {
+        height: 60%;
+        margin: 0 auto;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list {
+        height: 0;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul {
+        flex-direction: row;
+        text-align: center;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li {
+        padding: 0 3%;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li:hover {
+        padding: 0 3%;
+        font-size: 1.5rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li.on {
+        padding: 0 3%;
+        font-size: 1.5rem;
+    }
+    .about .fp-tableCell .mid .a-name {
+        padding: 0 0 2%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .about .fp-tableCell .mid .a-name > * {
+        margin: 0 2%;
+    }
+    .about .fp-tableCell .mid .a-name h1 {
+        margin-bottom: 0;
+    }
+    .about .fp-tableCell .mid .a-name .namesubs{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end
+    }
+    .about .fp-tableCell .mid .a-name .namesubs p {
+        font-size: 1rem;
+        margin: 2% 0 0;
+    }
+    .about .fp-tableCell .mid .a-name .namesubs p:first-child {
+        margin: 1% 0 1%;
+    }
+    .about .fp-tableCell .mid .a-name .namesubs p br {
+        display: none;
+    }
+    section .fp-tableCell .mid:nth-child(3) {
+        height: 70%;
+    }
+    .about .fp-tableCell .mid .box {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .about .fp-tableCell .mid .box .a-subs {
+        width: 90%;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .about .fp-tableCell .mid .box .a-subs .tool {
+        padding-left: 0;
+    }
+    .about .fp-tableCell .mid .box .a-subs .contact {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width : 992px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 768px) {
+    /* fullpage 깸 */
+    html {
+        font-size: 13px;
+    }
+    .home div img {
+    display: block;
+    }
+    section .fp-tableCell .left .txt {
+        height: 100%;
+    }
+    section .fp-tableCell .left .txt::after {
+        height: 65%;
+    }
+    section .fp-tableCell .left .txt img {
+        height: 30%;
+    }
+    .portfolio .fp-tableCell .mid {
+        height: 100%;
+        justify-content: center;
+    }
+    .portfolio .fp-tableCell .mid .p-midmain {
+        width: 100%;
+        height: 45%;
+    }
+    .portfolio .fp-tableCell .mid .p-midmain {
+        height: 45%;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .sub p {
+        font-size: 1.5rem;
+    }
+    .about .fp-tableCell .mid .a-name h1 {
+        font-size: 2.5rem;
+    }
+    .about .fp-tableCell .mid .a-name .namesubs p {
+        margin: 2% 0 1%;
+    }
+    .about .fp-tableCell .mid .box {
+        padding: 20% 15%;
+    }
+    .about .fp-tableCell .mid .box .a-subs .tool {
+        justify-content: space-evenly;
+    }
+    .about .fp-tableCell .mid .box .a-subs .tool * .icon img {
+        height: 30px;
+    }
+    .about .fp-tableCell .mid .box .a-subs .contact p {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width : 576px) {
+    element.style {
+        height: 768px;
+    }
+    html {
+        font-size: 12px;
+    }
+
+    header ul li {
+        padding: 1.5rem;
+    }
+    section .fp-tableCell .left .txt {
+        display: none;
+    }
+    .about .fp-tableCell .mid .a-name h1 {
+        font-size: 2.5rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midmain {
+        height: 35%;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li {
+        padding: 0 2%;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li:hover {
+        padding: 0 2%;
+        font-size: 1.3rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-list ul li.on {
+        padding: 0 2%;
+        font-size: 1.3rem;
+    }
+    .portfolio .fp-tableCell .mid .p-midside .p-midside-sub p {
+        height: 100%;
+    }
+    .about .fp-tableCell .mid .a-name > * {
+        margin: 0 3%;
+    }
+
+    .about .fp-tableCell .mid .a-name .namesubs p br {
+        display: block;
+    }
+    .about .fp-tableCell .mid .box .a-subs {
+        flex-direction: column;
+    }
+    .about .fp-tableCell .mid .box .a-subs .tool {
+        width: 100%;
+        display: flex;
+        margin-bottom: 10%;
+    }
+    .about .fp-tableCell .mid .box .a-subs .tool * .icon {
+        margin: 4% 2%;
+    }
+    .about .fp-tableCell .mid .box .a-subs .tool * .icon img {
+        margin: 0 1%;
+        height: 25px;
+    }
+    .about .fp-tableCell .mid .box .a-subs .contact {
+        width: 100%;
+    }
+    .about .fp-tableCell .mid .box .a-subs .contact p {
+        font-size: 1.2rem;
+    }
+}   
+@media screen and (max-width : 400px) {
+    html {
+        font-size: 11px;
+    }
+    .about .fp-tableCell .mid .a-name h1 {
+        margin: 0;
+    }
+    .about .fp-tableCell .mid .box .a-subs .contact i {
+        margin: 2% 0;
+    }
+    .about .fp-tableCell .mid .box .a-subs .contact p {
+        margin: 5% 3%;
+    }
+}

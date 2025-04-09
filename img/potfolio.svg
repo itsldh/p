@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 150 300">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+        font-family: Pretendard-SemiBold, Pretendard;
+        font-size: 48px;
+        font-weight: 600;
+        isolation: isolate;
+      }
+
+      .st1 {
+        display: none;
+      }
+    </style>
+  </defs>
+  <rect class="st1" x=".2" width="149.5" height="300"/>
+  <text class="st0" transform="translate(88.3 256) rotate(-90)"><tspan x="0" y="0">portfolio .</tspan></text>
+</svg>
