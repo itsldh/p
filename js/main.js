@@ -16,7 +16,7 @@ $(function(){
             if (index == 2) {
                 // isPage2Loaded = true;
                 $('.p-midside-list li').eq(0).trigger('click')
-                $('.video').eq(0).find('iframe').attr('src', "https://www.youtube.com/embed/KtA2KRm1LVU?vq=hd1920&muted=1&playsinline=1&cc_load_policy=0&autoplay=1")
+                $('.video').eq(0).find('iframe').attr('src', "https://www.youtube.com/embed/gFcyhltNa1M?vq=hd1920&muted=1&playsinline=1&cc_load_policy=0&autoplay=1")
             }
         },
     })
